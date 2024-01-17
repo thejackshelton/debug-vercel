@@ -1,0 +1,98 @@
+{
+  "manifestHash": "qt3jne",
+  "symbols": {
+    "s_99NRfwJF0Yc": {
+      "origin": "components/counter.tsx",
+      "displayName": "Counter_component",
+      "canonicalFilename": "s_99nrfwjf0yc",
+      "hash": "99NRfwJF0Yc",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        94,
+        212
+      ]
+    },
+    "s_ALh0bWqm5eg": {
+      "origin": "components/counter.tsx",
+      "displayName": "Counter_component_button_onClick",
+      "canonicalFilename": "s_alh0bwqm5eg",
+      "hash": "ALh0bWqm5eg",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_99NRfwJF0Yc",
+      "loc": [
+        162,
+        183
+      ]
+    }
+  },
+  "mapping": {
+    "s_99NRfwJF0Yc": "q-xjLTJI4r.js",
+    "s_ALh0bWqm5eg": "q-QtipkmCK.js"
+  },
+  "bundles": {
+    "q-8Qk47iUr.js": {
+      "size": 44782,
+      "dynamicImports": [
+        "q-xjLTJI4r.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@builder.io+qwik@1.3.5_undici@5.28.2/node_modules/@builder.io/qwik/core.min.mjs",
+        "src/components/counter.tsx"
+      ]
+    },
+    "q-oitnaMU_.js": {
+      "size": 58,
+      "imports": [
+        "q-8Qk47iUr.js"
+      ]
+    },
+    "q-QtipkmCK.js": {
+      "size": 108,
+      "imports": [
+        "q-8Qk47iUr.js"
+      ],
+      "origins": [
+        "src/s_alh0bwqm5eg.js"
+      ],
+      "symbols": [
+        "s_ALh0bWqm5eg"
+      ]
+    },
+    "q-xjLTJI4r.js": {
+      "size": 441,
+      "imports": [
+        "q-8Qk47iUr.js"
+      ],
+      "dynamicImports": [
+        "q-QtipkmCK.js"
+      ],
+      "origins": [
+        "src/s_99nrfwjf0yc.js"
+      ],
+      "symbols": [
+        "s_99NRfwJF0Yc"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "hook"
+    }
+  },
+  "platform": {
+    "qwik": "1.3.5",
+    "vite": "",
+    "rollup": "4.9.5",
+    "env": "node",
+    "os": "linux",
+    "node": "20.10.0"
+  }
+}
